@@ -11,3 +11,5 @@
 > 5、支持回调： load加载回调、加载成功回调、对象淘汰回调；
 
 > 6、支持统计key的命中率（hit count 和 miss count）
+
+> 7、支持多key（interface{}）-value（interface{}）并行加载
