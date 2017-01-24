@@ -58,6 +58,7 @@ func LoadSymbolFile(path, uuid string, cfg *ConfigInfo) (*Symbol, error) {
 			if !sb.Append(sl) {
 				symbol.Append(sb)
 				sb = NewSymbolBlock(symbol.MaxCount())
+				sb.Append(sl)
 			}
 		}
 	}
