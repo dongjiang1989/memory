@@ -17,9 +17,15 @@
 
 ## characteristics:
 > 1, support key-value matching queries (hash), and also support approximate matching queries (Multi - level two - point lookups)
+
 > 2, support multi block block or multi value asynchronous simultaneous loading
+
 > 3 supports global memory maximum settings or global maximum block object settings;
+
 > 4 supports LRU, LFU, and random elimination algorithms, and also supports time expired elimination;
+
 > 5, support callbacks: load loads callbacks, loads successful callbacks, objects, and eliminates callbacks;
+
 > 6, support statistics key hit rate (hit, count, and miss count)
+
 > 7, support multiple key (interface{}) -value (interface{}) parallel loading
